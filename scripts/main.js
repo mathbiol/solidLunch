@@ -17,5 +17,3 @@ solid.auth.trackSession(session => {
       $('#profile').val(session.webId);
   }
 });
-
-document.body.innerHTML+='<h2 style="color:red">I made a change at '+Date()+'</h2>'
